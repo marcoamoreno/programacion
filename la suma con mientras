@@ -1,0 +1,28 @@
+// la suma con mientras.cpp : Defines the entry point for the console application.
+// autor: marco antonio moreno sakamoto
+// autor: flavia vaca morant
+// fecha : 15/04/2014
+
+#include "stdafx.h"
+#include<iostream>
+#include"conio.h"
+using namespace std;
+int main()
+ {
+	int n,s,i,cont;
+ cout<< "Ingrese el valor n: " ;
+ cin>>n;
+  s=0;
+  cont=1;
+  i=2;
+  while(cont<=n)
+ {
+    s=s+i;
+    i=i+2;
+	cont=cont+1;
+	cout<<"resultado: "<<s ;
+ }
+ getch();
+
+	
+}
