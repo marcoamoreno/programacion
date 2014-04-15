@@ -20,8 +20,9 @@ int main()
     s=s+i;
     i=i+2;
 	cont=cont+1;
-	cout<<"resultado: "<<s ;
+	
  }
+  cout<<"resultado: "<<s ;
  getch();
 
 	
