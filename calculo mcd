@@ -1,0 +1,47 @@
+// mcd de 3 numeros.cpp : Defines the entry point for the console application.
+//autor:marco antonio moreno fecha:22/04/2014
+
+#include "stdafx.h"
+#include <iostream>
+#include "conio.h"
+
+using namespace std;
+
+void main()
+{
+int a,b,c,menor,cont,mcd;
+cout<<"ingrese el valor de a :";
+cin>>a;
+cout<<"ingrese el valor de b:";
+cin>>b;
+cout<<"ingrese el valor de c;";
+cin>>c;
+if (a<b && b<c)
+menor=a;
+else 
+  if(b<a && b<c)
+	  menor=b;
+  else
+	  menor=c;
+mcd=1;
+cont=2;
+while(cont<=menor)
+{
+	if((a%cont==0)&&(b%cont==0)&&(c%cont==0))
+	{
+		a=a/cont;
+		b=b/cont;
+		c=c/cont;
+		menor=menor/cont;
+		mcd=mcd*cont;
+		cont=cont-1;
+	}
+	cont=cont+1;
+}
+cout<<"mcd";
+cout<<mcd;
+_getch();
+
+}
+
+
