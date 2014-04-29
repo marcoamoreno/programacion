@@ -1,0 +1,32 @@
+// tiempo transcurrido.cpp : Defines the entry point for the console application.
+//
+
+#include "stdafx.h"
+#include <iostream>
+#include  "conio.h"
+#include  "math.h"
+ using namespace std;
+ void main()
+ {
+int h1,m1,s1,h2,m2,s2,h3,m3,s3;
+ cout<<"ingresar el h1:";
+ cin>>h1;
+ cout<<"ingresar el m1:";
+ cin>>m1;
+ cout<<"ingresar el s1:";
+ cin>>s1;
+ cout<<"ingresar el h2:";
+ cin>>h2;
+ cout<<"ingresar el m2:";
+ cin>>m2;
+ cout<<"ingresar el s2:";
+ cin>>s2;
+if
+ h3=h1-h2
+ m3=m1-m2
+ s3=s1-s2
+ if((h=h1-h2)(m3=m1-m2)(s3=s1-s2))
+cout<<h3;
+getch()
+}
+
